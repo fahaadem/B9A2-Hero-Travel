@@ -1,13 +1,14 @@
-/* Responsive for Mobile Devices */
-
-
-
+/* Responsive for Laptop/Desktop Devices */
 @media screen and (min-width: 992px) {
+
     .navbar-items {
         width: 50%;
     }
-    
+
 }
+
+/* Responsive for Mobile Devices */
+
 
 @media screen and (max-width: 600px) {
 
@@ -45,5 +46,33 @@
         font-weight: 800;
     }
 
+    .banner-title {
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .banner-text {
+        font-size: 15px;
+        margin: 15px 20px;
+        text-align: justify;
+    }
+
+    .input-container {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .input-container div {
+        width: 100%;
+    }
+
+    .input-container button, input, select  {
+        width: 100%;
+    }
+
+    .input-container input {
+        margin-right: 10px;
+        box-sizing: border-box;
+    }
 
 }
