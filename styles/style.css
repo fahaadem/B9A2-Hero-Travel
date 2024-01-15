@@ -22,7 +22,8 @@
 
 /* Header section styles */
 
-header {
+header,
+main {
     max-width: 83%;
     margin: 0 auto;
 }
@@ -138,4 +139,63 @@ header {
     font-family: Mulish;
     font-size: 16px;
     font-weight: 400;
+}
+
+
+/* Main section styles */
+
+.popular-container {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.popular-text {
+    width: 50%;
+}
+
+.popular-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.popular-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin: 16px 0px;
+    text-align: justify;
+}
+
+.popular-li {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;/* 162.5% */
+    margin: 20px;
+    text-align: justify;
+}
+
+.popular-container .btn-primary {
+    padding: 13px 36px;
+    margin-top: 16px;
+}
+
+.img-container {
+    width: 50%;
+    height: 550px;
+    object-fit: cover;
+
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
 }
