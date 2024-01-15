@@ -1,0 +1,49 @@
+/* Responsive for Mobile Devices */
+
+
+
+@media screen and (min-width: 992px) {
+    .navbar-items {
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    /* Navbar section styles */
+    .hide {
+        display: none;
+    }
+
+    .menu-bar div {
+        width: 35px;
+        height: 4px;
+        background-color: black;
+        margin: 6px 0;
+    }
+
+    .menu-bar {
+        display: block;
+    }
+
+    header {
+        max-width: 90%;
+    }
+
+    .navbar {
+        justify-content: space-between;
+        margin-top: 5px;
+    }
+
+    .navbar-title {
+        gap: 5px;
+    }
+
+    .navbar-name {
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+
+}
