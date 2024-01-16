@@ -250,11 +250,11 @@ main {
 }
 
 .box3 {
-    grid-area: 2 / 1 / 3 / 4;
+    grid-area: 2 / 1 / 3 / 5;
 }
 
 .box4 {
-    grid-area: 2 / 4 / 3 / 10;
+    grid-area: 2 / 5 / 3 / 10;
 }
 
 .box5 {
@@ -284,4 +284,84 @@ main {
     font-family: Mulish;
     font-size: 28px;
     font-weight: 800;
+}
+
+/* Why choose us section styles */
+
+.choose-container {
+    margin: 100px 0px;
+}
+
+.choose-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.choose-text {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin: 24px 0px;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+.chosen-box {
+    padding: 32px 55px 32px 32px;
+    border-radius: 16px;
+}
+
+.item-1 {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+.item-2 {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    grid-area: 1 / 3 / 2 / 5;
+}
+
+.item-3 {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    grid-area: 2 / 2 / 3 / 4;
+}
+
+.box-img {
+    width: 60px;
+    height: 60px;
+}
+
+.box-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-description {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    text-align: justify;
 }
