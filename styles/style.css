@@ -292,7 +292,8 @@ main {
     margin: 100px 0px;
 }
 
-.choose-title {
+.choose-title,
+.discount-title {
     color: #131318;
     text-align: center;
     font-family: Mulish;
@@ -300,7 +301,8 @@ main {
     font-weight: 800;
 }
 
-.choose-text {
+.choose-text,
+.discount-text {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-family: Mulish;
@@ -364,4 +366,94 @@ main {
     line-height: 26px;
     /* 162.5% */
     text-align: justify;
+}
+
+/* Discount section styles */
+
+
+.discount-container>div {
+    height: 500px;
+    max-height: 389px;
+}
+
+.discount-box {
+    background-image: url('../Images/Group\ 39.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* height: 500px; */
+    margin-top: 10px;
+    padding: 2% 0% 3%;
+    object-fit: cover;
+}
+
+.discount-items-container {
+    gap: 10px;
+    align-items: center;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    justify-content: flex-start;
+    margin: 3% 5% 10% 40%;
+    padding: 8% 5%;
+    /* max-height: 389px; */
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+.discount-img-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.discount-items {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.discount-items-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 18px 0px;
+}
+
+.discount-items-text {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.discount-price {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 18px 0px;
+}
+
+.for-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.discount-items-container-2 {
+    gap: 10px;
+    align-items: center;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    justify-content: flex-start;
+    margin: 3% 40% 10% 5%;
+    padding: 8% 5%;
+    /* max-height: 389px; */
+    box-sizing: border-box;
+    object-fit: cover;
 }

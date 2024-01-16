@@ -157,4 +157,13 @@
         grid-area: 3 / 1 / 4 / 2;
     }
 
+
+    .discount-items-container {
+        margin: 50% 8% 1%;
+    }
+
+    .discount-items-container-2 {
+        margin: 50% 8% 1%;
+    }
+
 }
